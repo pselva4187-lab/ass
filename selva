@@ -1,0 +1,8 @@
+create database employer;
+use employer;
+create table employer(
+empid int,
+empname varchar(20),
+salary int,
+department varchar(20)
+);
